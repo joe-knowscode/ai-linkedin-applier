@@ -7,7 +7,7 @@ The AI scraper will:
 2. Read the job description of the posting, and send it the LLM.
 3. The LLM will output a new `Projects` & `Technical Skills` section for your Resume in Latex format.
 4. The LLM output will get pasted on your Resume, on Overleaf -> and will recompile & save your new Resume as a PDF.
-5. The scraper will go back LinkedIn and apply to the job with your new Resume 💎
+5. The scraper will go back to LinkedIn and apply to the job with your new Resume 💎
 6. The scraper will give you 60 seconds (adjustable in the code), to fill out any additional questions on the LinkedIn
 application. 
 7. Once you click `Submit application` you don't need to do anything else, steps 1-6 will repeat on auto-pilot 😎.
@@ -30,7 +30,7 @@ Adjust to the location of your Chrome.
 ### 2. Open your tabs:
 1. Open LinkedIn -> go to Jobs -> go to the Easy Apply category.
 2. Open Overleaf on your Resume.
-**Note:** The order in which you open your tabs is important. Open LinkedIn first, and Overleaf second.
+* **Note:** The order in which you open your tabs is important. Open LinkedIn first, and Overleaf second.
 
 ### 3. Set your ENV variables:
 Set the follow variables in your `.env` file.
